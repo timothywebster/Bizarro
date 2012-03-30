@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B01AD62152604CB000882BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B01AD61152604CB000882BB /* UIKit.framework */; };
+		2B01AD64152604CB000882BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B01AD63152604CB000882BB /* Foundation.framework */; };
+		2B01AD66152604CB000882BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B01AD65152604CB000882BB /* CoreGraphics.framework */; };
+		2B01AD6C152604CB000882BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B01AD6A152604CB000882BB /* InfoPlist.strings */; };
+		2B01AD6E152604CB000882BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B01AD6D152604CB000882BB /* main.m */; };
+		2B01AD72152604CB000882BB /* BzoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B01AD71152604CB000882BB /* BzoAppDelegate.m */; };
+		2B01AD75152604CB000882BB /* BzoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B01AD74152604CB000882BB /* BzoViewController.m */; };
+		2B01AD78152604CB000882BB /* BzoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B01AD76152604CB000882BB /* BzoViewController.xib */; };
+		2B01AD83152611A7000882BB /* www in Resources */ = {isa = PBXBuildFile; fileRef = 2B01AD82152611A7000882BB /* www */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B01AD5D152604CB000882BB /* Bizarro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bizarro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B01AD61152604CB000882BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B01AD63152604CB000882BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B01AD65152604CB000882BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B01AD69152604CB000882BB /* Bizarro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bizarro-Info.plist"; sourceTree = "<group>"; };
+		2B01AD6B152604CB000882BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B01AD6D152604CB000882BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B01AD6F152604CB000882BB /* Bizarro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bizarro-Prefix.pch"; sourceTree = "<group>"; };
+		2B01AD70152604CB000882BB /* BzoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BzoAppDelegate.h; sourceTree = "<group>"; };
+		2B01AD71152604CB000882BB /* BzoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BzoAppDelegate.m; sourceTree = "<group>"; };
+		2B01AD73152604CB000882BB /* BzoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BzoViewController.h; sourceTree = "<group>"; };
+		2B01AD74152604CB000882BB /* BzoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BzoViewController.m; sourceTree = "<group>"; };
+		2B01AD77152604CB000882BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BzoViewController.xib; sourceTree = "<group>"; };
+		2B01AD82152611A7000882BB /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B01AD5A152604CB000882BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B01AD62152604CB000882BB /* UIKit.framework in Frameworks */,
+				2B01AD64152604CB000882BB /* Foundation.framework in Frameworks */,
+				2B01AD66152604CB000882BB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B01AD52152604CB000882BB = {
+			isa = PBXGroup;
+			children = (
+				2B01AD67152604CB000882BB /* Bizarro */,
+				2B01AD60152604CB000882BB /* Frameworks */,
+				2B01AD5E152604CB000882BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B01AD5E152604CB000882BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B01AD5D152604CB000882BB /* Bizarro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B01AD60152604CB000882BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B01AD61152604CB000882BB /* UIKit.framework */,
+				2B01AD63152604CB000882BB /* Foundation.framework */,
+				2B01AD65152604CB000882BB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B01AD67152604CB000882BB /* Bizarro */ = {
+			isa = PBXGroup;
+			children = (
+				2B01AD82152611A7000882BB /* www */,
+				2B01AD70152604CB000882BB /* BzoAppDelegate.h */,
+				2B01AD71152604CB000882BB /* BzoAppDelegate.m */,
+				2B01AD73152604CB000882BB /* BzoViewController.h */,
+				2B01AD74152604CB000882BB /* BzoViewController.m */,
+				2B01AD76152604CB000882BB /* BzoViewController.xib */,
+				2B01AD68152604CB000882BB /* Supporting Files */,
+			);
+			path = Bizarro;
+			sourceTree = "<group>";
+		};
+		2B01AD68152604CB000882BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B01AD69152604CB000882BB /* Bizarro-Info.plist */,
+				2B01AD6A152604CB000882BB /* InfoPlist.strings */,
+				2B01AD6D152604CB000882BB /* main.m */,
+				2B01AD6F152604CB000882BB /* Bizarro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B01AD5C152604CB000882BB /* Bizarro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B01AD7B152604CB000882BB /* Build configuration list for PBXNativeTarget "Bizarro" */;
+			buildPhases = (
+				2B01AD59152604CB000882BB /* Sources */,
+				2B01AD5A152604CB000882BB /* Frameworks */,
+				2B01AD5B152604CB000882BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bizarro;
+			productName = Bizarro;
+			productReference = 2B01AD5D152604CB000882BB /* Bizarro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B01AD54152604CB000882BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Bzo;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2B01AD57152604CB000882BB /* Build configuration list for PBXProject "Bizarro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B01AD52152604CB000882BB;
+			productRefGroup = 2B01AD5E152604CB000882BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B01AD5C152604CB000882BB /* Bizarro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B01AD5B152604CB000882BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B01AD6C152604CB000882BB /* InfoPlist.strings in Resources */,
+				2B01AD78152604CB000882BB /* BzoViewController.xib in Resources */,
+				2B01AD83152611A7000882BB /* www in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B01AD59152604CB000882BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B01AD6E152604CB000882BB /* main.m in Sources */,
+				2B01AD72152604CB000882BB /* BzoAppDelegate.m in Sources */,
+				2B01AD75152604CB000882BB /* BzoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B01AD6A152604CB000882BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B01AD6B152604CB000882BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B01AD76152604CB000882BB /* BzoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B01AD77152604CB000882BB /* en */,
+			);
+			name = BzoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B01AD79152604CB000882BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B01AD7A152604CB000882BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B01AD7C152604CB000882BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bizarro/Bizarro-Prefix.pch";
+				INFOPLIST_FILE = "Bizarro/Bizarro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B01AD7D152604CB000882BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bizarro/Bizarro-Prefix.pch";
+				INFOPLIST_FILE = "Bizarro/Bizarro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B01AD57152604CB000882BB /* Build configuration list for PBXProject "Bizarro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B01AD79152604CB000882BB /* Debug */,
+				2B01AD7A152604CB000882BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B01AD7B152604CB000882BB /* Build configuration list for PBXNativeTarget "Bizarro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B01AD7C152604CB000882BB /* Debug */,
+				2B01AD7D152604CB000882BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B01AD54152604CB000882BB /* Project object */;
+}
