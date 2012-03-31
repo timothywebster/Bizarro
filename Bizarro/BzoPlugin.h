@@ -3,7 +3,7 @@
 //  Bizarro
 //
 //  Created by Timothy Webster on 3/31/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  MIT Licensed. Have Fun.
 //
 
 #import <Foundation/Foundation.h>
