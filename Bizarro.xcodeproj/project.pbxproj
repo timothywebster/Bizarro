@@ -16,6 +16,8 @@
 		2B01AD75152604CB000882BB /* BzoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B01AD74152604CB000882BB /* BzoViewController.m */; };
 		2B01AD78152604CB000882BB /* BzoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B01AD76152604CB000882BB /* BzoViewController.xib */; };
 		2B01AD83152611A7000882BB /* www in Resources */ = {isa = PBXBuildFile; fileRef = 2B01AD82152611A7000882BB /* www */; };
+		2BFECFEB15271C590012DF7A /* BzoPluginExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFECFEA15271C590012DF7A /* BzoPluginExample.m */; };
+		2BFECFF41527224C0012DF7A /* BzoPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFECFF31527224C0012DF7A /* BzoPlugin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,10 @@
 		2B01AD74152604CB000882BB /* BzoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BzoViewController.m; sourceTree = "<group>"; };
 		2B01AD77152604CB000882BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BzoViewController.xib; sourceTree = "<group>"; };
 		2B01AD82152611A7000882BB /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		2BFECFE915271C590012DF7A /* BzoPluginExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BzoPluginExample.h; sourceTree = "<group>"; };
+		2BFECFEA15271C590012DF7A /* BzoPluginExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BzoPluginExample.m; sourceTree = "<group>"; };
+		2BFECFF21527224C0012DF7A /* BzoPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BzoPlugin.h; sourceTree = "<group>"; };
+		2BFECFF31527224C0012DF7A /* BzoPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BzoPlugin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				2B01AD73152604CB000882BB /* BzoViewController.h */,
 				2B01AD74152604CB000882BB /* BzoViewController.m */,
 				2B01AD76152604CB000882BB /* BzoViewController.xib */,
+				2BFECFF21527224C0012DF7A /* BzoPlugin.h */,
+				2BFECFF31527224C0012DF7A /* BzoPlugin.m */,
+				2BFECFE915271C590012DF7A /* BzoPluginExample.h */,
+				2BFECFEA15271C590012DF7A /* BzoPluginExample.m */,
 				2B01AD68152604CB000882BB /* Supporting Files */,
 			);
 			path = Bizarro;
@@ -168,6 +178,8 @@
 				2B01AD6E152604CB000882BB /* main.m in Sources */,
 				2B01AD72152604CB000882BB /* BzoAppDelegate.m in Sources */,
 				2B01AD75152604CB000882BB /* BzoViewController.m in Sources */,
+				2BFECFEB15271C590012DF7A /* BzoPluginExample.m in Sources */,
+				2BFECFF41527224C0012DF7A /* BzoPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +291,7 @@
 				2B01AD7D152604CB000882BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

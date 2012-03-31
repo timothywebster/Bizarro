@@ -7,8 +7,8 @@
 //
 
 #import "BzoAppDelegate.h"
-
 #import "BzoViewController.h"
+#import "BzoPlugin.h"
 
 @implementation BzoAppDelegate
 
@@ -25,18 +25,20 @@
     return YES;
 }
 
-#define JS_TEMPLATE @"myCallback('%@')"
-- (NSString *)callDoUpdate:(NSString *)string {
-    NSString *jsExp = [[NSString alloc] initWithFormat:JS_TEMPLATE, string];   
-    return [self.viewController.myWebView stringByEvaluatingJavaScriptFromString:jsExp]; 
-}
-
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
     // only handle our own callbacks, not urls from random pages or other people's bzo apps
     // we could register a second url scheme for inter-process communication if desired
     if (sourceApplication == nil) {
-        [self callDoUpdate:[url description]];
-        return YES;
+        // create an instance of the plugin class. In real phonegap, there is a dictionary of plugin names
+        // to whitelist the set of classes that can be dynamically loaded
+        NSString *pluginName = [url host];
+        BzoPlugin *plugin = [NSClassFromString(pluginName) performSelector:@selector(getInstance)];
+        if (plugin) {
+            plugin.webView = self.viewController.myWebView;
+            return [plugin openURL:url];
+        } else {
+            NSLog(@"unknown plugin: %@", pluginName);
+        }
     }
     return NO;
 }
