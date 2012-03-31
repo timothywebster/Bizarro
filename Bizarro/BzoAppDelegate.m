@@ -31,12 +31,14 @@
     return [self.viewController.myWebView stringByEvaluatingJavaScriptFromString:jsExp]; 
 }
 
-
-- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
-    // no, there is not a query string parser on board
-    NSLog(@"got this from the web app: %@", url);
-    [self callDoUpdate:[url description]];
-    return YES;
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    // only handle our own callbacks, not urls from random pages or other people's bzo apps
+    // we could register a second url scheme for inter-process communication if desired
+    if (sourceApplication == nil) {
+        [self callDoUpdate:[url description]];
+        return YES;
+    }
+    return NO;
 }
 
 
